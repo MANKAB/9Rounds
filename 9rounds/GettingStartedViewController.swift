@@ -10,11 +10,15 @@ import UIKit
 
 class GettingStartedViewController: UIViewController,UITextFieldDelegate,UIScrollViewDelegate {
     @IBOutlet var emailTF:UITextField?
+    var currentTextField:UITextField?
     @IBOutlet var scrollView:UIScrollView?
     @IBOutlet var pageControl:UIPageControl?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        NotificationCenter.default.addObserver(self, selector:#selector(keyboardWillShow), name: .UIKeyboardWillShow, object: nil)
+        NotificationCenter.default.addObserver(self, selector:#selector(keyboardWillHide), name: .UIKeyboardWillHide, object: nil)
         
         let scrollViewWidth:CGFloat = self.scrollView!.frame.width
         let scrollViewHeight:CGFloat = self.scrollView!.frame.height
@@ -30,7 +34,7 @@ class GettingStartedViewController: UIViewController,UITextFieldDelegate,UIScrol
         self.scrollView?.addSubview(imgTwo)
         self.scrollView?.addSubview(imgThree)
         
-        self.scrollView?.contentSize = CGSize(width:(self.scrollView?.frame.width)! * 3, height:(self.scrollView?.frame.height)!)
+        self.scrollView?.contentSize = CGSize(width:(self.scrollView?.frame.width)! * 3, height:1.0)
         self.scrollView?.delegate = self
         self.pageControl?.currentPage = 0
         // Do any additional setup after loading the view.
@@ -45,6 +49,7 @@ class GettingStartedViewController: UIViewController,UITextFieldDelegate,UIScrol
     }
     
     @IBAction func submitAction(sender:AnyObject){
+        currentTextField?.resignFirstResponder()
         let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
         let nxtVC = storyboard.instantiateViewController(withIdentifier: "LoginVC") as! LoginViewController
         self.navigationController?.pushViewController(nxtVC, animated: true)
@@ -89,6 +94,7 @@ class GettingStartedViewController: UIViewController,UITextFieldDelegate,UIScrol
     // MARK: - TEXTFIELD DELEGATE METHODS
     
     func textFieldDidBeginEditing(_ textField: UITextField) {
+        currentTextField = textField
         textField.becomeFirstResponder()
     }
     
