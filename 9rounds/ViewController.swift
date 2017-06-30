@@ -40,10 +40,32 @@ extension ViewController: MenuViewControllerDelegate {
         contentType = !contentType
         transitionPoint = point
         selectedIndex = index
-
-        let content = storyboard!.instantiateViewController(withIdentifier: "Content") as! ContentViewController
-        content.type = contentType
-        navigator.setViewControllers([content], animated: true)
+        
+        if(selectedIndex == 0){
+            let content = storyboard!.instantiateViewController(withIdentifier: "Content") as! ContentViewController
+            content.type = contentType
+            navigator.setViewControllers([content], animated: true)
+        }else if(selectedIndex == 1){
+            let content = storyboard!.instantiateViewController(withIdentifier: "GoalsVC") as! GoalsViewController
+           // content.type = contentType
+            navigator.setViewControllers([content], animated: true)
+        }else if(selectedIndex == 2){
+            let content = storyboard!.instantiateViewController(withIdentifier: "FreeWorkOutVC") as! FreeWorkOutViewController
+            // content.type = contentType
+            navigator.setViewControllers([content], animated: true)
+        }else if(selectedIndex == 3){
+            let content = storyboard!.instantiateViewController(withIdentifier: "SettingsVC") as! SettingsViewController
+            // content.type = contentType
+            navigator.setViewControllers([content], animated: true)
+        }else if(selectedIndex == 4){
+            let content = storyboard!.instantiateViewController(withIdentifier: "AboutUSVC") as! AboutUSViewController
+            // content.type = contentType
+            navigator.setViewControllers([content], animated: true)
+        }else if(selectedIndex == 5){
+            let content = storyboard!.instantiateViewController(withIdentifier: "NutritionVC") as! NutritionViewController
+            // content.type = contentType
+            navigator.setViewControllers([content], animated: true)
+        }
         
         DispatchQueue.main.async {
             self.dismiss(animated: true, completion: nil)

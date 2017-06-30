@@ -23,6 +23,12 @@
 		9799D5A31EFAE71E00024023 /* slide1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9799D5A21EFAE71E00024023 /* slide1.jpg */; };
 		97BAE1B01EF9902F00F0818C /* GettingStartedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BAE1AF1EF9902F00F0818C /* GettingStartedViewController.swift */; };
 		97BAE1B21EFA24D200F0818C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BAE1B11EFA24D200F0818C /* LoginViewController.swift */; };
+		97E7EF151F06C16600D79618 /* FindAGYMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E7EF141F06C16600D79618 /* FindAGYMViewController.swift */; };
+		97E7EF171F06C17900D79618 /* GoalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E7EF161F06C17900D79618 /* GoalsViewController.swift */; };
+		97E7EF191F06C18F00D79618 /* FreeWorkOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E7EF181F06C18F00D79618 /* FreeWorkOutViewController.swift */; };
+		97E7EF1B1F06C1A300D79618 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E7EF1A1F06C1A300D79618 /* SettingsViewController.swift */; };
+		97E7EF1D1F06C1BA00D79618 /* AboutUSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E7EF1C1F06C1BA00D79618 /* AboutUSViewController.swift */; };
+		97E7EF1F1F06C1F400D79618 /* NutritionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E7EF1E1F06C1F400D79618 /* NutritionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +50,12 @@
 		9799D5A21EFAE71E00024023 /* slide1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slide1.jpg; sourceTree = "<group>"; };
 		97BAE1AF1EF9902F00F0818C /* GettingStartedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GettingStartedViewController.swift; sourceTree = "<group>"; };
 		97BAE1B11EFA24D200F0818C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		97E7EF141F06C16600D79618 /* FindAGYMViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindAGYMViewController.swift; sourceTree = "<group>"; };
+		97E7EF161F06C17900D79618 /* GoalsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalsViewController.swift; sourceTree = "<group>"; };
+		97E7EF181F06C18F00D79618 /* FreeWorkOutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreeWorkOutViewController.swift; sourceTree = "<group>"; };
+		97E7EF1A1F06C1A300D79618 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		97E7EF1C1F06C1BA00D79618 /* AboutUSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUSViewController.swift; sourceTree = "<group>"; };
+		97E7EF1E1F06C1F400D79618 /* NutritionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NutritionViewController.swift; sourceTree = "<group>"; };
 		C1B50C87259BC3DE8973E5AE /* Pods_9rounds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_9rounds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9AA8B2909BCBBC4856D11B5 /* Pods-9rounds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-9rounds.release.xcconfig"; path = "Pods/Target Support Files/Pods-9rounds/Pods-9rounds.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,6 +104,12 @@
 			isa = PBXGroup;
 			children = (
 				97165ABA1EF67CF900E73722 /* ContentViewController.swift */,
+				97E7EF141F06C16600D79618 /* FindAGYMViewController.swift */,
+				97E7EF161F06C17900D79618 /* GoalsViewController.swift */,
+				97E7EF181F06C18F00D79618 /* FreeWorkOutViewController.swift */,
+				97E7EF1A1F06C1A300D79618 /* SettingsViewController.swift */,
+				97E7EF1C1F06C1BA00D79618 /* AboutUSViewController.swift */,
+				97E7EF1E1F06C1F400D79618 /* NutritionViewController.swift */,
 				97165ABB1EF67CF900E73722 /* MenuViewController.swift */,
 				97165ABC1EF67CF900E73722 /* ViewController.swift */,
 				97BAE1AF1EF9902F00F0818C /* GettingStartedViewController.swift */,
@@ -270,12 +288,18 @@
 				97BAE1B01EF9902F00F0818C /* GettingStartedViewController.swift in Sources */,
 				97165AC51EF68CEE00E73722 /* AnimationDelegate.swift in Sources */,
 				97165AC71EF6953400E73722 /* ContentType.swift in Sources */,
+				97E7EF1F1F06C1F400D79618 /* NutritionViewController.swift in Sources */,
+				97E7EF151F06C16600D79618 /* FindAGYMViewController.swift in Sources */,
 				97165ABD1EF67CF900E73722 /* ContentViewController.swift in Sources */,
+				97E7EF191F06C18F00D79618 /* FreeWorkOutViewController.swift in Sources */,
+				97E7EF171F06C17900D79618 /* GoalsViewController.swift in Sources */,
 				97165AC31EF68CE700E73722 /* CircularRevealTransitionAnimator.swift in Sources */,
 				97165AC11EF68BDF00E73722 /* CircularRevealAnimator.swift in Sources */,
+				97E7EF1B1F06C1A300D79618 /* SettingsViewController.swift in Sources */,
 				97165ABE1EF67CF900E73722 /* MenuViewController.swift in Sources */,
 				97165ABF1EF67CF900E73722 /* ViewController.swift in Sources */,
 				97BAE1B21EFA24D200F0818C /* LoginViewController.swift in Sources */,
+				97E7EF1D1F06C1BA00D79618 /* AboutUSViewController.swift in Sources */,
 				975823F11EF2FAD8008B3452 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

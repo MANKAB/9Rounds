@@ -23,9 +23,18 @@ class LoginViewController: UIViewController,UITextFieldDelegate {
     @IBAction func loginButtonAction(sender:AnyObject){
         currentTextField?.resignFirstResponder()
         let storyBoard:UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-        let rootVC = storyBoard.instantiateViewController(withIdentifier: "ViewController") as! ViewController
-        appDelegate.navi = UINavigationController(rootViewController: rootVC)
-        appDelegate.window?.rootViewController = appDelegate.navi
+        //let rootVC = storyBoard.instantiateViewController(withIdentifier: "ViewController") as! ViewController
+        
+        
+        
+        let initialViewController = storyBoard.instantiateViewController(withIdentifier: "ViewController")
+        
+        appDelegate.window?.rootViewController = initialViewController
+        appDelegate.window?.makeKeyAndVisible()
+        
+        
+//        appDelegate.navi = UINavigationController(rootViewController: rootVC)
+//        appDelegate.window?.rootViewController = appDelegate.navi
         
 //        let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
 //        let nxtVC = storyboard.instantiateViewController(withIdentifier: "ViewController") as! ViewController

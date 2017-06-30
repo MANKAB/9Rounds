@@ -558,6 +558,108 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XPX-7e-9gB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--FindAGYM View Controller-->
+        <scene sceneID="QAa-8t-bJA">
+            <objects>
+                <viewController storyboardIdentifier="FindAGYMVC" id="EsN-ep-EV0" customClass="FindAGYMViewController" customModule="_rounds" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OLH-It-CzI"/>
+                        <viewControllerLayoutGuide type="bottom" id="q6Y-1n-6ro"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uRR-rp-ElA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mjL-Ij-JFX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Goals View Controller-->
+        <scene sceneID="Qqv-7U-IPv">
+            <objects>
+                <viewController storyboardIdentifier="GoalsVC" id="Hd1-xV-6au" customClass="GoalsViewController" customModule="_rounds" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UDF-Ya-uEh"/>
+                        <viewControllerLayoutGuide type="bottom" id="KPv-ut-Mtr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Hvn-9q-cwe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kv5-EF-EIh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Free Work Out View Controller-->
+        <scene sceneID="TA7-Rs-rSq">
+            <objects>
+                <viewController storyboardIdentifier="FreeWorkOutVC" id="qZ3-Gw-Sji" customClass="FreeWorkOutViewController" customModule="_rounds" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="atD-eH-s7m"/>
+                        <viewControllerLayoutGuide type="bottom" id="VWl-zL-xDf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6Sn-sr-hFh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ic2-I9-Zzq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Settings View Controller-->
+        <scene sceneID="qjg-hd-WRZ">
+            <objects>
+                <viewController storyboardIdentifier="SettingsVC" id="WBP-YD-kzo" customClass="SettingsViewController" customModule="_rounds" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Q8Y-x4-2fb"/>
+                        <viewControllerLayoutGuide type="bottom" id="hrM-EC-Gyg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zQz-w6-iPP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nfV-Yc-1qv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--AboutUS View Controller-->
+        <scene sceneID="XC4-El-gbA">
+            <objects>
+                <viewController storyboardIdentifier="AboutUSVC" id="j6Y-9w-aOx" customClass="AboutUSViewController" customModule="_rounds" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Dji-cT-4BR"/>
+                        <viewControllerLayoutGuide type="bottom" id="ial-9G-cuL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lbU-eB-4QF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OKQ-36-PZh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Nutrition View Controller-->
+        <scene sceneID="juW-8S-k3T">
+            <objects>
+                <viewController storyboardIdentifier="NutritionVC" id="xZA-ZB-apt" customClass="NutritionViewController" customModule="_rounds" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Auc-tt-8L6"/>
+                        <viewControllerLayoutGuide type="bottom" id="Gpz-cI-Ytc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nGx-Vt-xAT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dmD-Ko-vp3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
     </scenes>
     <resources>
         <image name="content_music" width="320" height="568"/>
